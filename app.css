@@ -1,0 +1,25 @@
+.sedans{background-color: hsl(31, 77%, 52%);border-top-left-radius: 7px; border-bottom-left-radius: 7px; padding: 40px;}
+.suv{background-color: hsl(184, 100%, 22%);padding: 40px;}
+.lux{ background-color:hsl(179, 100%, 13%) ;border-top-right-radius: 7px; border-bottom-right-radius: 7px; padding: 40px;}
+p, a {color: rgba(255, 255, 255, 0.664); font-family: 'Lexend Deca'; font-size: small; line-height: 1.7em;}
+h1{font-family: 'Big Shoulders Display'; font-weight: large; color: white;}
+.main{display: flex;flex-direction: row;width: 800px;height:450px ;}
+body{display: flex;justify-content: center;align-items: center; margin-top: 100px;}
+
+.sedans a{text-decoration: none; color: hsl(31, 77%, 52%);border-radius: 40px; border: 1px solid white;
+    padding: 10px 30px; background-color: white; 
+}
+
+.sedans a:active{color: white;background-color: transparent;}
+.suv a{text-decoration: none; color: hsl(184, 100%, 22%);border-radius: 40px; border: 1px solid white;padding: 10px 30px; background-color: white;}
+.suv a:active{color: white;background-color: transparent;}
+.lux a{text-decoration: none; color: hsl(179, 100%, 13%);border-radius: 40px; border: 1px solid white;padding: 10px 30px; background-color: white;}
+.lux a:active{color: white;background-color: transparent;}
+.learn-more{ margin-top: 100px; box-shadow: black;  }
+
+@media(max-width:642px){
+.main{display: flex;flex-direction: column;width: 600px; margin: 70px;}
+.sedans{border-top-left-radius: 7px; border-top-right-radius: 7px; border-bottom-left-radius: 0px;}
+.lux{border-bottom-left-radius:7px; border-bottom-right-radius: 7px; border-top-right-radius: 0px;}
+body{display: flex;justify-content: center;align-items: center; margin-top: 100px; margin-bottom: 800px;}
+}
